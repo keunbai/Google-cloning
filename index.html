@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>구글클론사이트</title>
+  
+  <!-- CSS from bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <!-- CSS mine -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class='logo'>
+    <span>K</span><span>e</span><span>u</span><span>n</span><span>b</span><span>a</span><span>i</span>
+  </div>
+
+  <form action="https://www.google.com/search" method="GET">
+    <!-- original from bootstrap -->
+    <!-- <div class="input-group mb-3"> <= original -->
+    <!--   <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2"> -->
+    <!-- 추가 class: input-kb mx-auto mt-4 -->
+    <!-- 추가 class: rounded-pill -->
+    <div class="input-kb mx-auto mt-4 input-group mb-3">
+      <input type="text" name="q" class="rounded-pill form-control" placeholder="Keunbai 검색 또는 URL 입력" aria-label="Recipient's username" aria-describedby="button-addon2">
+    </div>
+  </form>
+</body>
+</html>
+

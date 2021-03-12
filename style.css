@@ -1,0 +1,37 @@
+body {
+  height: 153px;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 250px;
+  font-size: 90px;
+  /* font-family: 'Apple SD Gothic Neo',arial,sans-serif; */
+  font-weight: bold;
+}
+
+div span:nth-child(1) {
+  color: #4285F4;
+}
+div span:nth-child(2) {
+  color: #EA4335;
+}
+div span:nth-child(3) {
+  color: #FBBC05;
+}
+div span:nth-child(4) {
+  color: #4285F4;
+}
+div span:nth-child(5) {
+  color: #34A853;
+}
+div span:nth-child(6) {
+  color: #EA4335;
+}
+div span:nth-child(7) {
+  color: #FBBC05;
+}
+
+.input-kb {
+  width: 500px;
+}
