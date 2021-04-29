@@ -5,7 +5,7 @@ body {
 .logo {
   text-align: center;
   margin-top: 250px;
-  font-size: 90px;
+  font-size: 85px;
   /* font-family: 'Apple SD Gothic Neo',arial,sans-serif; */
   font-weight: bold;
 }
@@ -34,4 +34,11 @@ div span:nth-child(7) {
 
 .input-kb {
   width: 500px;
+}
+
+/* responsive_Web: mediaquery */
+@media (max-width:800px) {
+  .input-kb {
+    width: 350px;
+  }
 }
